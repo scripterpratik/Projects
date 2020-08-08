@@ -3,7 +3,7 @@ from selenium import webdriver
 from fb import temp_var
 import time
 
-#take to login page
+#take to login page of github
 browser = webdriver.Chrome(executable_path='/usr/bin/chromedriver')
 browser.get('https://github.com/login')
 time.sleep(2)
