@@ -16,3 +16,9 @@ search_el1.send_keys(temp_var)
 time.sleep(2)
 search_el2 = browser.find_element_by_css_selector("input[name='commit']")
 search_el2.click()
+time.sleep(2)
+"""
+#select repository
+search_el3 = browser.find_element_by_css_selector("input[title='scripterpratik']")
+search_el3.click()
+"""
